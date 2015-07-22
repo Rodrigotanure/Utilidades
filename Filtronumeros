@@ -1,0 +1,10 @@
+while True:
+    try:
+        x = int(raw_input("Please enter a number: "))
+        if (x>0 and x<=30):
+            break
+        else:
+            print("Digite um numero maior que 0 e menor que 30")
+    except ValueError:
+        print "Oops!  That was no valid number.  Try again..."
+print x
