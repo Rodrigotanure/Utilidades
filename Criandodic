@@ -1,0 +1,5 @@
+j=[]
+for i in range(2):
+    j.append({'identificacao':'teste%i'%i,'movimentos':i})
+f={'test':j}
+print f
